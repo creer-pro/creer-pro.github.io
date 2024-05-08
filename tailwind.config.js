@@ -4,7 +4,11 @@ module.exports = {
     "*.html"
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ['Comfortaa']
+      },
+    },
   },
   plugins: [],
 }
