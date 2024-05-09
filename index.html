@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <title>CREER.pro - Official Webpage</title>
-  <link rel="stylesheet" href="./res/css/styles.css">
+  <link rel="stylesheet" href="./res/css/styles.css?v=1.2">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Comfortaa:wght@300..700&display=swap" rel="stylesheet">
@@ -18,9 +18,9 @@
 </head>
 <body class="bg-stone-100">
   <!-- main --> 
-  <div class="w-full h-screen">
-    <div class="w-1/3 h-auto mx-auto">
-      <div class="flex flex-row items-center space-x-6 mt-32">
+  <div class="w-full h-screen relative overflow-hidden">
+    <div class="w-1024 align-center grid place-content-center h-auto mx-auto">
+      <div class="flex flex-row items-center place-content-center space-x-6 mt-32">
         <!-- logo -->
         <img src="./res/svg/logo.svg" class="w-28" alt="Creer Logo">
         <div>
@@ -45,9 +45,9 @@
         </div>
       </div>
       <!-- coming soon -->
-      <div>Coming Soon</div>
+      <div class="text-8xl font-black mt-16 bg-gradient-to-b from-stone-400 text-transparent bg-clip-text leading-normal">Coming Soon</div>
       <!-- copyright -->
-      <div>Copyright &copy; 2024 - Creer.pro</div>
+      <div class="w-full absolute bottom-0 mb-24 text-center text-xs text-gray-500 font-medium">Copyright &copy; 2024 - Creer.pro</div>
     </div>
   </div>
 </body>
